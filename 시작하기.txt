@@ -1,0 +1,19 @@
+PS C:\demo\bootstrap_demo> echo "# bootstrap_demo" >> README.md
+PS C:\demo\bootstrap_demo> git init
+Initialized empty Git repository in C:/demo/bootstrap_demo/.git/
+PS C:\demo\bootstrap_demo> git add README.md
+PS C:\demo\bootstrap_demo> git commit -m "first commit"
+[master (root-commit) 50bf997] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+PS C:\demo\bootstrap_demo> git branch -M main
+PS C:\demo\bootstrap_demo> git remote add origin https://github.com/tigerkim072-mobius/bootstrap_demo.git
+PS C:\demo\bootstrap_demo> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 246 bytes | 123.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/tigerkim072-mobius/bootstrap_demo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\demo\bootstrap_demo> code .
