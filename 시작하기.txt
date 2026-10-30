@@ -1,3 +1,12 @@
+echo "# group_repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tigerkim072-mobius/bootstrap_demo.git
+git push -u origin main
+
+
 PS C:\demo\bootstrap_demo> echo "# bootstrap_demo" >> README.md
 PS C:\demo\bootstrap_demo> git init
 Initialized empty Git repository in C:/demo/bootstrap_demo/.git/
@@ -17,3 +26,63 @@ To https://github.com/tigerkim072-mobius/bootstrap_demo.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 PS C:\demo\bootstrap_demo> code .
+
+
+
+npm run dev
+
+
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'eslint.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/icons.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/vite.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+
+W1-L0029@W1-L0029 UCRT64 /c/demo/bootstrap_demo (main)
+$ git commit -m "first"
+[main 201fb2f] first
+ 17 files changed, 3042 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.svg
+ create mode 100644 public/icons.svg
+ create mode 100644 src/App.css
+ create mode 100644 src/App.jsx
+ create mode 100644 src/assets/hero.png
+ create mode 100644 src/assets/react.svg
+ create mode 100644 src/assets/vite.svg
+ create mode 100644 src/index.css
+ create mode 100644 src/main.jsx
+ create mode 100644 vite.config.js
+ create mode 100644 "\354\213\234\354\236\221\355\225\230\352\270\260.txt"
+
+W1-L0029@W1-L0029 UCRT64 /c/demo/bootstrap_demo (main)
+$ git remote add origin https://github.com/tigerkim072-mobius/bootstrap_demo.git
+error: remote origin already exists.
+
+W1-L0029@W1-L0029 UCRT64 /c/demo/bootstrap_demo (main)
+$ git push -u origin main
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 44.42 KiB | 4.44 MiB/s, done.
+Total 22 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/tigerkim072-mobius/bootstrap_demo.git
+   50bf997..201fb2f  main -> main
+branch 'main' set up to track 'origin/main'.
+
+W1-L0029@W1-L0029 UCRT64 /c/demo/bootstrap_demo (main)
